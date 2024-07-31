@@ -20,7 +20,7 @@ if message:
             id = int(rows[-1]["id"]) + 1
 
 if id is not None:  
-    date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    date = datetime.now().strftime('%Y-%m-%d')
     new_row = [id, date, "TODO", message]
     with open(filename, mode='a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
