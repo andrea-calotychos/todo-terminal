@@ -14,11 +14,13 @@ AVAILABLE COMMANDS
 
 view: Views all tasks in the terminal.
 add {{message}}: Adds a new task to the TODO list. Replace {{message}} with the description of the task.
-up {{id}}: Updates the task by ID. Replace {{id}} with the ID of the task you want to upgrade (e.g., TODO -> TOTEST, TOTEST -> DONE).
-down {{id}}: Downgrades the task by ID. Replace {{id}} with the ID of the task you want to downgrade (e.g., TOTEST -> TODO, DONE -> TOTEST).
+up {{id}}: Updates the task by ID. Replace {{id}} with the ID of the task you want to upgrade (e.g. TODO -> TOTEST, TOTEST -> DONE).
+down {{id}}: Downgrades the task by ID. Replace {{id}} with the ID of the task you want to downgrade (e.g. TOTEST -> TODO, DONE -> TOTEST).
 del {{id}}: Deletes the task by ID. Replace {{id}} with the ID of the task you want to delete.
-delList {{ids}}: Deletes multiple tasks by ID. Replace {{ids}} with all the IDs you want to delete (e.g., delList 1 2 3).
+delList {{ids}}: Deletes multiple tasks by ID. Replace {{ids}} with all the IDs you want to delete (e.g. delList 1 2 3).
 
+hours: View all developement hours by project
+addHours {{project}} {{hours}}: adds hours to a project if present, else creates a new row with the hours amount setted (e.g. addHours "todo-terminal" 5)
 
 
 HOW IT WORKS
