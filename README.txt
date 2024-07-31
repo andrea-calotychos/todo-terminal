@@ -6,7 +6,7 @@ This is a very simple Python application that I use to save and keep track of cu
 
 HOW TO RUN
 
-You must have Python installed on your computer. You can run the application by executing the shortcut todo-terminal.bat or directly the file run.bat
+You must have Python installed on your computer. You can run the application by executing the shortcut todo terminal or directly the file run.bat
 
 
 
